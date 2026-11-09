@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img">
+<title>dawn-patrol: fetch, store, compute, gate, publish</title>
+<desc>Five steps from the Open-Meteo forecast to a published page, with 3 spots and 48 rows stored per spot each pull.</desc>
+<rect x="0.5" y="0.5" width="1199" height="419" fill="#001B3B" stroke="#EDE7DC" stroke-width="1"/>
+<text x="48" y="76" font-family="Georgia, 'Playfair Display', serif" font-size="42" fill="#F2EDE2" text-anchor="start">dawn-patrol</text>
+<text x="48" y="112" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="18" fill="#D8D3CA" text-anchor="start">3 breaks. A forecast every 6 hours. Every number in the brief is checked.</text>
+<rect x="90" y="170" width="180" height="120" fill="#001B3B" stroke="#EDE7DC" stroke-width="1"/>
+<text x="108" y="218" font-family="Georgia, 'Playfair Display', serif" font-size="22" fill="#F2EDE2" text-anchor="start">Open-Meteo</text>
+<text x="108" y="252" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#D8D3CA" text-anchor="start">marine + wind</text>
+<line x1="276" y1="230" x2="294" y2="230" stroke="#8C5348" stroke-width="3"/>
+<polygon points="294,230 286,224 286,236" fill="#8C5348"/>
+<rect x="300" y="170" width="180" height="120" fill="#001B3B" stroke="#EDE7DC" stroke-width="1"/>
+<text x="318" y="218" font-family="Georgia, 'Playfair Display', serif" font-size="22" fill="#F2EDE2" text-anchor="start">SQLite</text>
+<text x="318" y="252" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#D8D3CA" text-anchor="start">48 rows per spot</text>
+<line x1="486" y1="230" x2="504" y2="230" stroke="#8C5348" stroke-width="3"/>
+<polygon points="504,230 496,224 496,236" fill="#8C5348"/>
+<rect x="510" y="170" width="180" height="120" fill="#001B3B" stroke="#EDE7DC" stroke-width="1"/>
+<text x="528" y="218" font-family="Georgia, 'Playfair Display', serif" font-size="22" fill="#F2EDE2" text-anchor="start">facts</text>
+<text x="528" y="252" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#D8D3CA" text-anchor="start">4 numbers, 2 directions</text>
+<text x="528" y="272" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#D8D3CA" text-anchor="start">2 clock times</text>
+<line x1="696" y1="230" x2="714" y2="230" stroke="#8C5348" stroke-width="3"/>
+<polygon points="714,230 706,224 706,236" fill="#8C5348"/>
+<rect x="720" y="170" width="180" height="120" fill="#001B3B" stroke="#EDE7DC" stroke-width="1"/>
+<text x="738" y="218" font-family="Georgia, 'Playfair Display', serif" font-size="22" fill="#F2EDE2" text-anchor="start">gate</text>
+<text x="738" y="252" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#D8D3CA" text-anchor="start">accept or reject</text>
+<line x1="906" y1="230" x2="924" y2="230" stroke="#8C5348" stroke-width="3"/>
+<polygon points="924,230 916,224 916,236" fill="#8C5348"/>
+<rect x="930" y="170" width="180" height="120" fill="#001B3B" stroke="#EDE7DC" stroke-width="1"/>
+<text x="948" y="218" font-family="Georgia, 'Playfair Display', serif" font-size="22" fill="#F2EDE2" text-anchor="start">site</text>
+<text x="948" y="252" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="15" fill="#D8D3CA" text-anchor="start">1 page per spot</text>
+<text x="48" y="360" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#D8D3CA" text-anchor="start">3 spots, 24 hours per pull, a refresh every 6 hours. The template brief needs no model; LLM_URL is optional.</text>
+<text x="48" y="388" font-family="-apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="16" fill="#8C5348" text-anchor="start">No number reaches the page unless it came from a stored row.</text>
+</svg>

@@ -1,0 +1,36 @@
+# The breaks this pipeline watches. Adding a spot is a config edit and nothing else.
+# best_wind_direction is the direction the wind comes FROM when the wind is offshore here.
+# Directions are the 16 compass points, degrees clockwise from north.
+
+[[spots]]
+name = "Cloud 9"
+slug = "cloud-9"
+place = "Siargao, Philippines"
+latitude = 9.7822
+longitude = 126.1616
+timezone = "Asia/Manila"
+utc_offset_seconds = 28800
+best_swell_direction = "NE"
+best_wind_direction = "SW"
+
+[[spots]]
+name = "Uluwatu"
+slug = "uluwatu"
+place = "Bali, Indonesia"
+latitude = -8.8291
+longitude = 115.0849
+timezone = "Asia/Makassar"
+utc_offset_seconds = 28800
+best_swell_direction = "SW"
+best_wind_direction = "E"
+
+[[spots]]
+name = "Pipeline"
+slug = "pipeline"
+place = "Oahu, Hawaii"
+latitude = 21.6647
+longitude = -158.0530
+timezone = "Pacific/Honolulu"
+utc_offset_seconds = -36000
+best_swell_direction = "NW"
+best_wind_direction = "SE"

@@ -1,0 +1,2 @@
+# The test dependency, and nothing else. The pipeline itself is the standard library.
+pytest>=8

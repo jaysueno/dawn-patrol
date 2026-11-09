@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dawn-patrol"
+version = "1.0.0"
+description = "A surf forecast pipeline where every number in the brief is checked."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Jay Sueno" }]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[tool.setuptools]
+packages = ["dawn_patrol"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
