@@ -7,6 +7,8 @@ row, and a test proves it.
 
 ## What it does
 
+![The Cloud 9 forecast page: the three-line brief, a 24-hour swell chart with the best two-hour window shaded, and the numbers behind it](docs/img/cloud9-page.png)
+
 ![Five boxes from the Open-Meteo endpoints through SQLite, the facts, the gate and the site. Three spots, 48 stored rows per spot each pull, a refresh every six hours.](docs/img/hero.svg)
 
 Three public breaks: Cloud 9 on Siargao, Uluwatu on Bali, and Pipeline on Oahu. Every six hours
